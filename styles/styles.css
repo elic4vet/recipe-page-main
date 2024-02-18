@@ -1,0 +1,153 @@
+/*Colors */
+:root {
+    --nutmeg: hsl(14, 45%, 36%);
+    --dark-raspberry: hsl(332, 51%, 32%);
+
+    --White: hsl(0, 0%, 100%);
+    --Rose-White: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --light-Grey: hsl(30, 18%, 87%);
+    --Wenge-Brown: hsl(30, 10%, 34%);
+    --Dark-Charcoal: hsl(24, 5%, 18%);
+
+    --main-f-family: 'YoungSerif', serif;
+    --second-f-family: 'Outfit', sans-serif;
+
+    --reg-f-weight: 400;
+    --med-f-weight: 600;
+    --bold-f-weight: 700;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: var(--main-f-family);
+    font-weight: var(--reg-f-weight);
+    background-color: var(--Eggshell);
+}
+
+
+h1 {
+    font-size: 5rem;
+    color: var(--Dark-Charcoal);
+    font-weight: var(--bold-f-weight);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+h2 {
+    font-size: 3rem;
+    color: var(--nutmeg);
+    font-weight: var(--med-f-weight);
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: var(--dark-raspberry);
+    font-weight: var(--med-f-weight);
+}
+
+p,
+li {
+    font-family: var(--main-f-family);
+    font-size: 25px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    line-height: 1.6;
+    border-radius: 35px;
+    background-color: var(--White);
+    margin-bottom: 2rem;
+}
+
+.omelette__image {
+    width: 100%;
+    display: block;
+    border-radius: 35px;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.main__par {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1.6;
+    font-size: 27px;
+}
+
+
+.prep__header {
+    color: var(--dark-raspberry);
+    font-family: var(--second-f-family);
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.preparation {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Rose-White);
+    border-radius: 15px;
+    padding: 2rem;
+}
+
+.nutrition {
+    display: flex;
+    flex-direction: column;
+}
+.nutrition h2 {
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+.nutrition p {
+    font-size: 25px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    padding: 2rem;
+    font-size: 25px;
+}
+
+th {
+    font-weight: var(--reg-f-weight);
+ 
+}
+.calories, .fat, .carbs, .protein {
+ color: var(--nutmeg);
+ font-weight: var(--bold-f-weight);
+}
+
+/*Footer / Attribution*/
+.attribution {
+    font-size: 20px;
+    text-align: center;
+    color: var(--Dark-Charcoal);
+    font-style: bold;
+}
+
+.attribution a {
+    color: var(--dark-raspberry);
+    font-weight: var(--bold-f-weight);
+}
+
+/*Mobile Devices*/
+@media (max-width: 375px) {}
