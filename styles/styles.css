@@ -34,7 +34,7 @@ body {
 
 
 h1 {
-    font-size: 5rem;
+    font-size: 3rem;
     color: var(--Dark-Charcoal);
     font-weight: var(--bold-f-weight);
     margin-top: 2rem;
@@ -43,13 +43,13 @@ h1 {
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     color: var(--nutmeg);
     font-weight: var(--med-f-weight);
 }
 
 h3 {
-    font-size: 1.5rem;
+    font-size: 0.5rem;
     color: var(--dark-raspberry);
     font-weight: var(--med-f-weight);
 }
@@ -57,11 +57,11 @@ h3 {
 p,
 li {
     font-family: var(--main-f-family);
-    font-size: 25px;
+    font-size: 16px;
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 600px;
     margin: 0 auto;
     padding: 0 2rem;
     line-height: 1.6;
@@ -85,7 +85,7 @@ li {
     justify-content: space-between;
     align-items: center;
     line-height: 1.6;
-    font-size: 27px;
+    font-size: 18px;
 }
 
 
@@ -109,13 +109,14 @@ li {
     display: flex;
     flex-direction: column;
 }
+
 .nutrition h2 {
-margin-top: 15px;
-margin-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .nutrition p {
-    font-size: 25px;
+    font-size: 18px;
     margin-bottom: 5px;
     margin-top: 5px;
 }
@@ -129,11 +130,15 @@ table {
 
 th {
     font-weight: var(--reg-f-weight);
- 
+
 }
-.calories, .fat, .carbs, .protein {
- color: var(--nutmeg);
- font-weight: var(--bold-f-weight);
+
+.calories,
+.fat,
+.carbs,
+.protein {
+    color: var(--nutmeg);
+    font-weight: var(--bold-f-weight);
 }
 
 /*Footer / Attribution*/
