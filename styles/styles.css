@@ -155,4 +155,32 @@ th {
 }
 
 /*Mobile Devices*/
-@media (max-width: 375px) {}
+@media (max-width: 375px) {
+    .container {
+        padding: 0 1rem;
+    }
+
+    .omelette__image {
+        margin-top: 1rem;
+    }
+
+    .main__par {
+        flex-direction: column;
+    }
+
+    .preparation {
+        padding: 1rem;
+    }
+
+    .nutrition {
+        padding: 1rem;
+    }
+
+    table {
+        padding: 1rem;
+    }
+
+    .attribution {
+        font-size: 16px;
+    }
+}
