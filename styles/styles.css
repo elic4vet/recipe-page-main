@@ -31,6 +31,7 @@ body {
     font-family: var(--main-f-family);
     font-weight: var(--reg-f-weight);
     background-color: var(--Eggshell);
+    color: var(--Wenge-Brown);
 }
 
 
@@ -66,7 +67,7 @@ li {
     margin: 0 auto;
     padding: 0 2rem;
     line-height: 1.6;
-    border-radius:25px;
+    border-radius: 25px;
     background-color: var(--White);
     margin-bottom: 2rem;
 }
@@ -104,7 +105,7 @@ li {
 }
 
 .prep__steps ::marker {
-  color: var(--dark-raspberry);
+    color: var(--dark-raspberry);
 }
 
 
@@ -113,6 +114,14 @@ li {
     flex-direction: column;
     background-color: var(--Rose-White);
     border-radius: 15px;
+}
+
+.ingredients__list ::marker {
+    color: var(--nutmeg);
+}
+
+.bold {
+    font-weight: var(--med-f-weight);
 }
 
 .nutrition {
@@ -126,7 +135,6 @@ li {
 }
 
 .nutrition p {
-    font-size: 18px;
     margin-bottom: 5px;
     margin-top: 5px;
 }
@@ -135,13 +143,23 @@ table {
     width: 100%;
     text-align: left;
     padding: 2rem;
-    font-size: 25px;
+    font-size: 16px;
 }
 
 th {
     font-weight: var(--reg-f-weight);
 
 }
+
+hr {
+
+    border: 0;
+    border-top: 1px solid var(--light-Grey);
+    width: 100%;
+
+}
+
+
 
 .calories,
 .fat,
