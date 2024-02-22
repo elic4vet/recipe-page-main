@@ -12,6 +12,7 @@
 
     --main-f-family: 'YoungSerif', serif;
     --second-f-family: 'Outfit', sans-serif;
+    --title-f-family: 'Fraunces', serif;
 
     --reg-f-weight: 400;
     --med-f-weight: 600;
@@ -37,15 +38,15 @@ h1 {
     font-size: 3rem;
     color: var(--Dark-Charcoal);
     font-weight: var(--bold-f-weight);
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-
+    font-family: var(--title-f-family);
+    margin: 0 auto;
 }
 
 h2 {
     font-size: 2rem;
     color: var(--nutmeg);
     font-weight: var(--med-f-weight);
+    font-family: var(--title-f-family);
 }
 
 h3 {
@@ -65,7 +66,7 @@ li {
     margin: 0 auto;
     padding: 0 2rem;
     line-height: 1.6;
-    border-radius: 35px;
+    border-radius:25px;
     background-color: var(--White);
     margin-bottom: 2rem;
 }
@@ -73,10 +74,8 @@ li {
 .omelette__image {
     width: 100%;
     display: block;
-    border-radius: 35px;
     border-radius: 15px;
-    margin-bottom: 1rem;
-    margin-top: 2rem;
+    margin-top: 1.7rem;
 }
 
 .main__par {
@@ -92,17 +91,28 @@ li {
 .prep__header {
     color: var(--dark-raspberry);
     font-family: var(--second-f-family);
-    font-size: 2rem;
+    font-size: 1rem;
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
+    padding-left: 1.5rem;
 }
+
+.prep__steps {
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.prep__steps ::marker {
+  color: var(--dark-raspberry);
+}
+
 
 .preparation {
     display: flex;
     flex-direction: column;
     background-color: var(--Rose-White);
     border-radius: 15px;
-    padding: 2rem;
 }
 
 .nutrition {
