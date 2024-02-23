@@ -34,7 +34,6 @@ body {
     color: var(--Wenge-Brown);
 }
 
-
 h1 {
     font-size: 3rem;
     color: var(--Dark-Charcoal);
@@ -88,7 +87,6 @@ li {
     font-size: 18px;
 }
 
-
 .prep__header {
     color: var(--dark-raspberry);
     font-family: var(--second-f-family);
@@ -107,7 +105,6 @@ li {
 .prep__steps ::marker {
     color: var(--dark-raspberry);
 }
-
 
 .preparation {
     display: flex;
@@ -156,10 +153,7 @@ hr {
     border: 0;
     border-top: 1px solid var(--light-Grey);
     width: 100%;
-
 }
-
-
 
 .calories,
 .fat,
