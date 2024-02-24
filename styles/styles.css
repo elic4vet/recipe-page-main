@@ -1,5 +1,6 @@
 /*Colors */
 :root {
+    /*Primary Colors*/
     --nutmeg: hsl(14, 45%, 36%);
     --dark-raspberry: hsl(332, 51%, 32%);
 
@@ -10,16 +11,16 @@
     --Wenge-Brown: hsl(30, 10%, 34%);
     --Dark-Charcoal: hsl(24, 5%, 18%);
 
+    /*Font Families*/
     --main-f-family: 'YoungSerif', serif;
     --second-f-family: 'Outfit', sans-serif;
     --title-f-family: 'Fraunces', serif;
 
-
-
+    /*Font Weights*/
     --reg-f-weight: 400;
     --med-f-weight: 600;
     --bold-f-weight: 700;
-
+    /*Reset*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -42,6 +43,10 @@ h1 {
     font-weight: var(--bold-f-weight);
     font-family: var(--title-f-family);
     margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 h2 {
@@ -88,6 +93,8 @@ li {
     font-size: 16px;
 }
 
+/*//////////////////////// Preparation - Section 2 ////////////////////////*/
+
 .prep__header {
     color: var(--dark-raspberry);
     font-family: var(--second-f-family);
@@ -127,7 +134,7 @@ section .prepation {
     font-weight: var(--med-f-weight);
 }
 
-
+/*//////////////////////// Instructions - Section 3 ////////////////////////*/
 .instuctions {
     display: flex;
     flex-direction: column;
@@ -145,6 +152,7 @@ section .prepation {
     font-weight: var(--bold-f-weight);
 }
 
+/*//////////////////////// Nutrition - Section 4 ////////////////////////*/
 .nutrition {
     display: flex;
     flex-direction: column;
@@ -190,6 +198,8 @@ hr {
     font-weight: var(--bold-f-weight);
 }
 
+/*////////////////////////End of --> Nutrition - Section 4 ////////////////////////*/
+
 /*Footer / Attribution*/
 .attribution {
     font-size: 20px;
@@ -203,11 +213,56 @@ hr {
     font-weight: var(--bold-f-weight);
 }
 
+
+/*//////////////////////// Media Queries ////////////////////////*
 /*Mobile Devices*/
 @media (max-width: 375px) {
     h1 {
-        font-size: 1.5rem;
+        font-size: 0.5rem;
         text-align: center;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+    }
+
+    .container {
+        padding: 0 1rem;
+    }
+
+    .omelette__image {
+        margin-top: 1rem;
+    }
+
+    .main__par {
+        flex-direction: column;
+    }
+
+    .preparation {
+        padding: 1rem;
+    }
+
+    .nutrition {
+        padding: 1rem;
+    }
+
+    table {
+        padding: 1rem;
+    }
+
+    .attribution {
+        font-size: 16px;
+    }
+}
+
+/*Tablets*/
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
     }
 
     .container {
