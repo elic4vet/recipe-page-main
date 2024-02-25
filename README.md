@@ -82,6 +82,5 @@ I will continue building responsive apps and will make sure to make every app ac
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [My portfolio](https://erkekoglou.netlify.app/)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/elic4vet)
