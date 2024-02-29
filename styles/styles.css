@@ -94,7 +94,6 @@ li {
 }
 
 /*//////////////////////// Preparation - Section 2 ////////////////////////*/
-
 .prep__header {
     color: var(--dark-raspberry);
     font-family: var(--second-f-family);
@@ -212,7 +211,6 @@ hr {
     color: var(--dark-raspberry);
     font-weight: var(--bold-f-weight);
 }
-
 
 /*//////////////////////// Media Queries ////////////////////////*
 /*Mobile Devices*/
