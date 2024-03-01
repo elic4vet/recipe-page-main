@@ -3,7 +3,6 @@
     /*Primary Colors*/
     --nutmeg: hsl(14, 45%, 36%);
     --dark-raspberry: hsl(332, 51%, 32%);
-
     --White: hsl(0, 0%, 100%);
     --Rose-White: hsl(330, 100%, 98%);
     --Eggshell: hsl(30, 54%, 90%);
@@ -215,7 +214,7 @@ hr {
 /*//////////////////////// Media Queries ////////////////////////*
 /*Mobile Devices*/
 @media (max-width: 375px) {
-    
+
     h1 {
         font-size: 0.5rem;
         text-align: center;
